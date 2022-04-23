@@ -1,0 +1,110 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyNdTYxFOv0aboRTbycoMVhn",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jitendrasharma101/My-Data-science-journey-/blob/main/Python%20Program%20Day%201%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "side1,side2,side3=map(int,input(\"enter all values of sides\").split())\n",
+        "s= int((side1+side2+side3)/2)\n",
+        "s1=int(s-side1)\n",
+        "s2=int(s-side2)\n",
+        "s3=int(s-side3)\n",
+        "area=math.sqrt(s*s1*s2*s3)\n",
+        "print(\"this is area\",area)\n",
+        "print(\"this is perimeter\",int(side1+side2+side3))\n",
+        "print(\"this is semiperimeter\",s)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kkpIK8uzs2SG",
+        "outputId": "a30df3ad-6c58-4108-ca72-6321dc0784a9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter all values of sides45 67 67\n",
+            "this is area 1376.7149305502573\n",
+            "this is perimeter 179\n",
+            "this is semiperimeter 89\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number=int(input())\n",
+        "list=[]\n",
+        "for i in range(number):\n",
+        "  num=input()\n",
+        "  list.append(num)\n",
+        "print(list)\n",
+        "length=len(length)\n",
+        "for i in range(length)\n",
+        "   if(list[i]%2==\" \")\n",
+        "       \n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vveUwGUE5fZm",
+        "outputId": "5680f366-5dd9-401a-8d13-33a0703371d2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7\n",
+            "34\n",
+            "56\n",
+            "67\n",
+            "56\n",
+            "67\n",
+            "87\n",
+            "89\n",
+            "['34', '56', '67', '56', '67', '87', '89']\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
